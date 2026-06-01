@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Контакты | Мир вокруг нас</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+<header>
+  <h1><i class="fas fa-envelope"></i> Контакты</h1>
+  <nav>
+    <ul>
+      <li><a href="index.html">Главная</a></li>
+      <li><a href="gallery.html">Галерея</a></li>
+      <li><a href="contacts.html" class="active">Контакты</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+  <div class="contacts-grid">
+
+    <!-- Карточка разработчика -->
+    <div class="contact-card">
+      <h2>Иванов Иван</h2>
+      <p><i class="fas fa-envelope"></i> max241906A@yandex.by</p>
+      <p><i class="fas fa-tag"></i> Фотография, природа, путешествия</p>
+      <p><i class="fab fa-telegram"></i> <a href="#">@meta228_q</a></p>
+      <p><i class="fab fa-github"></i> <a href="#">github.com/ivan</a></p>
+      <p><i class="fas fa-map-marker-alt"></i> Москва, Россия</p>
+      <p><i class="fas fa-clock"></i> 10:00 – 20:00 (МСК)</p>
+    </div>
+
+    <!-- Форма обратной связи -->
+    <form class="contact-form">
+      <h2>Напишите мне</h2>
+      <input type="text" placeholder="Ваше имя" required>
+      <input type="email" placeholder="Email для ответа" required>
+      <select required>
+        <option value="">Выберите тему</option>
+        <option>Вопрос по сайту</option>
+        <option>Сотрудничество</option>
+        <option>Предложение</option>
+        <option>Другое</option>
+      </select>
+      <textarea rows="4" placeholder="Ваше сообщение..." required></textarea>
+      <label class="checkbox-group">
+        <input type="checkbox" required>
+        <span>Согласен на обработку персональных данных</span>
+      </label>
+      <button type="submit"><i class="fas fa-paper-plane"></i> Отправить</button>
+    </form>
+
+    <!-- FAQ блок -->
+    <div class="faq-box">
+      <h2>Часто задаваемые вопросы</h2>
+      <div class="faq-item">
+        <strong>Как поставить лайк?</strong>
+        <p>Наведи на фото в галерее → нажми на сердечко.</p>
+      </div>
+      <div class="faq-item">
+        <strong>Можно скачать фото?</strong>
+        <p>Да, напиши в форме — отправлю оригинал в хорошем качестве.</p>
+      </div>
+      <div class="faq-item">
+        <strong>Как часто обновляется сайт?</strong>
+        <p>Новые фото и факты появляются каждую неделю.</p>
+      </div>
+      <div class="faq-item">
+        <strong>Безопасно ли оставлять почту?</strong>
+        <p>Да, данные не передаются третьим лицам.</p>
+      </div>
+    </div>
+
+  </div>
+</main>
+
+
+</body>
+</html>
